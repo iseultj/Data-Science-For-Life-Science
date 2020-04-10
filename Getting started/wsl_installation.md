@@ -8,7 +8,8 @@ This is a step-by-step tutorial on how to install the windows subsystem for linu
 
 1. Open powershell in windows: right-click and choose to run as admin.
    - If you forget to right-click, type `Start-Process powershell -Verb runAs` to run as administrator.
-   - 
+   You might see this error message if you forget to run as admin:
+   ![run_as_admin_error_powershell](./images/error_bc_not_admin.png)
 2. The prompt should read something like `PS C:\WINDOWS\system32>`; At this point, type in `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 3. This then starts loading (it might take a few minutes). When prompted to restart your computer, type in Y.
 4. The next steps depend on what build of windows you have. Type `systeminfo | Select-String "^OS Name","^OS Version" ` into powershell; OS Name and Version will be printed to the screen. 
