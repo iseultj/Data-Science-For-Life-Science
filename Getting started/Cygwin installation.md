@@ -1,6 +1,6 @@
 # Cygwin installation
 
-If you don't have windows 10, cygwin is an alternative to the windows subsystem for linux:
+If you don't have Windows 10, Cygwin is an alternative to the Windows Subsystem for Linux:
 
 1. Determine whether your computer is running a 32-bit or 64-bit version of Windows (so you know which version of cygwin to install):
 
